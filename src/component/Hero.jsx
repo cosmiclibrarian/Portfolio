@@ -8,7 +8,7 @@ const Hero = () => {
         <section className="absolute -translate-x-1/2 ml-32 max-md:relative max-md:translate-x-0 max-md:ml-0">
           <div className="flex items-end gap-x-2">
             <h1 className="text-8xl tracking-tighter font-black rubik-dirt-regular max-md:text-6xl max-sm:text-5xl">
-              Hi, I'm Esan
+              Hi, I'm Adekunle
             </h1>
             <div className="w-5 h-5 bg-green-500 rounded-full mb-1" />
           </div>
@@ -17,9 +17,9 @@ const Hero = () => {
               I'm a <span className="text-green-500 ">Frontend Developer </span>
             </p>
             <p className="mb-5 font-semibold text-gray-400 max-md:text-sm">
-              I’ve spent the last 2 years crafting and scaling frontend
-              experiences for some awesome teams. It’s been a rewarding
-              journey—solving UI challenges, optimizing performance, and
+              I’ve spent the last 2 years building and scaling frontend
+              experiences for various teams. It’s been a rewarding
+              journey, solving UI challenges, optimizing performance, and
               building user-friendly interfaces. Let’s connect!
             </p>
             <a href="#contactme">

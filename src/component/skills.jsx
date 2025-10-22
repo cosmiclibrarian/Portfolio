@@ -4,27 +4,28 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMailOpen } from "react-icons/hi";
+import ContactMe from "./ContactMe";
 const Skill = () => {
   const socials = [
     {
       name: "linkedin",
       icon: <FaLinkedin />,
-      link: "https://www.linkedin.com/in/richard-esan-4919a4243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      link: "https://www.linkedin.com/in/adeniranibrahim1/",
     },
     {
       name: "github",
       icon: <FaGithub />,
-      link: "https://github.com/Richardesan",
+      link: "https://github.com/ibrahim735",
     },
     {
       name: "twitter/X",
       icon: <FaXTwitter />,
-      link: "https://x.com/RichardEsan2",
+      link: "https://x.com/ad_ibrahiim",
     },
     {
       name: "email",
       icon: <HiOutlineMailOpen />,
-      link: "mailto:esanrichard2@gmail.com",
+      link: "mailto:adeniranadekunle152@gmail.com",
     },
   ];
   // console.log(socials);
@@ -39,16 +40,15 @@ const Skill = () => {
             <div className="w-4 h-4 bg-green-500 rounded-full mb-1" />
           </div>{" "}
           <p className="font-semibold text-gray-400">
-            These are the tools I wielded on my frontend journey—crafting clean,
-            efficient code, building responsive and dynamic user interfaces,
-            optimizing performance for lightning-fast loads, managing state
-            seamlessly, securing user interactions, integrating with APIs
-            effortlessly, and ensuring everything looks and feels smooth while
-            users enjoy stunning digital experiences! 🎨⚡
+            These are the tools I used on my frontend journey to write clean,
+            efficient code, build responsive and dynamic user interfaces,
+            optimize performance for faster loads, manage state
+            seamlessly, secure user interactions, integrating with APIs, and ensuring everything looks and feels smooth while mainatining user experience.
           </p>
         </div>
         <ShuffleGrid />
       </article>
+      <ContactMe />
       <article className=" mx-auto w-[50vw] text-center">
         {/* <p className="text-base font-bold text-gray-400">
           Reach out to me today and let's discuss how i ca help you achieve your
@@ -98,34 +98,6 @@ const shuffle = (array) => {
 
 const squareData = [
   {
-    id: 1,
-    src: "/database.png",
-  },
-  {
-    id: 2,
-    src: "/nginx.png",
-  },
-  {
-    id: 3,
-    src: "/express.png",
-  },
-  {
-    id: 4,
-    src: "/nestjs.png",
-  },
-  {
-    id: 5,
-    src: "/azure.png",
-  },
-  {
-    id: 6,
-    src: "/kubernates.png",
-  },
-  {
-    id: 7,
-    src: "/docker.png",
-  },
-  {
     id: 8,
     src: "/Typescript.png",
   },
@@ -134,28 +106,12 @@ const squareData = [
     src: "/nextbb.png",
   },
   {
-    id: 10,
-    src: "/csharp.png",
-  },
-  {
-    id: 11,
-    src: "/mysql.png",
-  },
-  {
     id: 12,
     src: "/html-5.png",
   },
   {
-    id: 13,
-    src: "/pythonbbb.png",
-  },
-  {
     id: 14,
     src: "/cssbbb.png",
-  },
-  {
-    id: 15,
-    src: "/C_Pnow.png",
   },
   {
     id: 16,

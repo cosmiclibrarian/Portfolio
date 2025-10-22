@@ -22,7 +22,7 @@ export default function ContactMe() {
         transition={{ duration: 0.8 }}
         className="w-full max-w-lg bg-gray-900 p-6 rounded-lg shadow-lg font-mono relative"
       >
-        <p className="text-gray-400">contact@hover.dev</p>
+        <p className="text-gray-400">contact me here</p>
         <h2 className="text-lg font-bold mt-2">Hey there! We're excited to link <FaEnvelope className="inline text-blue-400" /></h2>
         <hr className="border-gray-600 my-3" />
         <p className="text-gray-300">To start, could you give us <span className="text-blue-400">your email?</span></p>

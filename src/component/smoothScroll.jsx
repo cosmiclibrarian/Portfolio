@@ -21,7 +21,7 @@ export const SmoothScrollHero = () => {
           //   syncTouch: true,
         }}
       >
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
         <Schedule />
       </ReactLenis>
@@ -178,9 +178,6 @@ const Schedule = () => {
       <ScheduleItem title="Pacetopper" date="Pacetopper is a technology services for banks, fintechs, and mobile networks" tools="next.js" link={"https://new.pacetopper.com/"}/>
       <ScheduleItem title="The Chills Room" date="The Chills Room is a vibrant, inclusive hub for creators, gamers, and crypto lovers" tools="react.js, tailwind, framer-motion" link="https://mychills-update.vercel.app/" />
       <ScheduleItem title="Upstate" date="Licensed and trusted, Upstate Electrical Systems LLC delivers safe, high-quality solutions for homes across Chesnee and surrounding areas." tools="react.js, tailwind, framer-motion" link="https://upstate-one.vercel.app/" />
-      <ScheduleItem title="Acces" date="Acees is a fashion e-commerce site that provides you with an effortless and enjoyable shopping experience." tools="React.js,framer-motion, tailwind" link={"https://github.com/Pr3c10us/Ecommerce"}  />
-      <ScheduleItem title="GoZapper" date="Developed APIs for product catalog, cart management and order processing" tools="typescript, tailwind" link={"https://github.com/Pr3c10us/GoZapper-Client"}/>
-      <ScheduleItem title="Leashtash" date="Developed APIs for product catalog, cart management and order processing" tools="react.js, tailwind, framer-motion" />
       
     </section>
   );

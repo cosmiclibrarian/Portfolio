@@ -4,13 +4,8 @@ const About = () => {
   const mySkills = [
     "javascript",
     "typescript",
-    "node js",
-    "c",
-    "C++",
-    "MySQL",
     "HTML",
     "CSS",
-    "Phyton",
     "Next.js",
   ];
   return (

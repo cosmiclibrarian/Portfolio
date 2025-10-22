@@ -1,3 +1,4 @@
+import ContactMe from "./component/ContactMe";
 import ContactUs from "./component/ContactMe";
 import Footer from "./component/footer";
 import Hero from "./component/Hero";
