@@ -21,7 +21,7 @@ export const SmoothScrollHero = () => {
           //   syncTouch: true,
         }}
       >
-        {/* <Nav /> */}
+        <Nav />
         <Hero />
         <Schedule />
       </ReactLenis>
@@ -32,14 +32,12 @@ export const SmoothScrollHero = () => {
 const Nav = () => {
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between p-6 text-white">
-<p></p>     <a href="/Richard_Esan_Resume.pdf" download>
-  <button
-    className="capitalize relative overflow-hidden text-sm max-sm:text-xs border-[1px] border-neutral-500 bg-neutral-800 px-4 py-2 font-mono font-medium text-neutral-300 transition-colors hover:text-green-500"
-  >
-    My Resume
-  </button>
-</a>
-
+      <p></p>{" "}
+      <a href="/Adekunle resume.pdf" download>
+        <button className="capitalize relative overflow-hidden text-sm max-sm:text-xs border-[1px] border-neutral-500 bg-neutral-800 px-4 py-2 font-mono font-medium text-neutral-300 transition-colors hover:text-green-500">
+          My Resume
+        </button>
+      </a>
     </nav>
   );
 };
@@ -92,12 +90,13 @@ const CenterImage = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
- <div className="flex items-end gap-x-2">
-            <h1 className="text-6xl max-md:text-5xl tracking-tighter font-black rubik-dirt-regular">
-              My Services
-            </h1>
-            <div className="w-5 h-5 bg-green-500 rounded-full mb-2" />
-          </div>      </motion.div>
+      <div className="flex items-end gap-x-2">
+        <h1 className="text-6xl max-md:text-5xl tracking-tighter font-black rubik-dirt-regular">
+          My Services
+        </h1>
+        <div className="w-5 h-5 bg-green-500 rounded-full mb-2" />
+      </div>{" "}
+    </motion.div>
   );
 };
 
@@ -175,10 +174,24 @@ const Schedule = () => {
       >
         My Projects
       </motion.h1>
-      <ScheduleItem title="Pacetopper" date="Pacetopper is a technology services for banks, fintechs, and mobile networks" tools="next.js" link={"https://new.pacetopper.com/"}/>
-      <ScheduleItem title="The Chills Room" date="The Chills Room is a vibrant, inclusive hub for creators, gamers, and crypto lovers" tools="react.js, tailwind, framer-motion" link="https://mychills-update.vercel.app/" />
-      <ScheduleItem title="Upstate" date="Licensed and trusted, Upstate Electrical Systems LLC delivers safe, high-quality solutions for homes across Chesnee and surrounding areas." tools="react.js, tailwind, framer-motion" link="https://upstate-one.vercel.app/" />
-      
+      <ScheduleItem
+        title="Afrosphere"
+        date="Afrosphere is a digital platform focused on promoting, discovering, and managing events and experiences within the African creative and tech ecosystem."
+        tools="react.js"
+        link={"https://afrosphere.vercel.app/"}
+      />
+      <ScheduleItem
+        title="The Chills Room"
+        date="The Chills Room is a vibrant, inclusive hub for creators, gamers, and crypto lovers"
+        tools="react.js, tailwind, framer-motion"
+        link="https://mychills-update.vercel.app/"
+      />
+      <ScheduleItem
+        title="Upstate"
+        date="Licensed and trusted, Upstate Electrical Systems LLC delivers safe, high-quality solutions for homes across Chesnee and surrounding areas."
+        tools="react.js, tailwind, framer-motion"
+        link="https://upstate-one.vercel.app/"
+      />
     </section>
   );
 };
@@ -192,15 +205,16 @@ const ScheduleItem = ({ title, date, tools, location, link }) => {
       className="mb-9 flex items-center justify-between border-b border-zinc-800 px-3 pb-9 cursor-pointer group"
     >
       <a href={link} target="blank">
-      <div>
-        <p className="mb-1.5 text-xl text-zinc-50">{title}</p>
-        <p className="text-sm uppercase text-zinc-500">{date}</p>
-        <p className="text-xs uppercase text-zinc-500">{tools}</p>
-      </div>
+        <div>
+          <p className="mb-1.5 text-xl text-zinc-50">{title}</p>
+          <p className="text-sm uppercase text-zinc-500">{date}</p>
+          <p className="text-xs uppercase text-zinc-500">{tools}</p>
+        </div>
       </a>
       <div className="flex items-center gap-1.5 text-end text-sm uppercase text-zinc-500">
         <p>{location}</p>
-        <FaArrowRight className="group-hover:text-white duration-200"/>      </div>
+        <FaArrowRight className="group-hover:text-white duration-200" />{" "}
+      </div>
     </motion.div>
   );
-}
+};

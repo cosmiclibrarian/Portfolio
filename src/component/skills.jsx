@@ -101,10 +101,7 @@ const squareData = [
     id: 8,
     src: "/Typescript.png",
   },
-  {
-    id: 9,
-    src: "/nextbb.png",
-  },
+ 
   {
     id: 12,
     src: "/html-5.png",

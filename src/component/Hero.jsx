@@ -17,7 +17,7 @@ const Hero = () => {
               I'm a <span className="text-green-500 ">Frontend Developer </span>
             </p>
             <p className="mb-5 font-semibold text-gray-400 max-md:text-sm">
-              I’ve spent the last 2 years building and scaling frontend
+              I’ve spent the last year building and scaling frontend
               experiences for various teams. It’s been a rewarding
               journey, solving UI challenges, optimizing performance, and
               building user-friendly interfaces. Let’s connect!
